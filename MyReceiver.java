@@ -16,6 +16,7 @@ public class MyReceiver extends BroadcastReceiver {
                 Intent i = new Intent("SagorsAction");
                 i.putExtra("key","data");
                 context.sendBroadcast(i);
+                //Context
                 break;
         }
     }
